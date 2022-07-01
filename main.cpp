@@ -6,6 +6,12 @@ using namespace std;
 void writeFile();
 void readFile();
 
+int main() {
+    writeFile();
+    readFile();
+    return 0;
+}
+
 void writeFile() {
     // output file stream
     ofstream file("file.txt", ios::app);
